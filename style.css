@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url(./media/Staatliches-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RubikR';
+    src: url(./media/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RubikL';
+    src: url(./media/Rubik-Light.ttf);
+}
+
+.logo {
+    cursor: pointer;
+    max-height: 100px;
+    padding: 20px;
+}
+
+.logo img {
+    width: 70px;
+    margin-left: 340px;
+    margin-top: -63px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Staatliches';
+    font-size: 35pt;
+}
+
+.barra_superior {
+    background-color: #FAA143;
+    height: 100px;
+}
+
+.conteudo {
+    padding: 20px;
+    color: #3e3e3e;
+}
+
+.conteudo p{
+    font-family: 'RubikR';
+    font-size: 16pt;
+}
+
+.lista {
+    display: flex;
+    gap: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px solid #765C4B;
+    color: #3e3e3e;
+}
+
+.botao {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'RubikL';
+    font-size: 12pt;
+    color: white;
+    background-color: rgb(255, 78, 78);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: white;
+    border: 2px solid rgb(255, 78, 78);
+    color: rgb(255, 78, 78);
+    transition: .2s;
+}
+
+#alterar {
+    background-color: #FAA143;
+    margin-left: 5px;
+}
+
+#alterar:hover {
+    background-color: white;
+    border: 2px solid #FAA143;
+    color: #FAA143;
+}
+
+h2 {
+    font-family: 'Staatliches'; 
+    font-size: 30pt;
+}
+
+h3 {
+    font-family: 'RubikL';
+    font-size: 14pt;
+}
+
+.item p {
+    font-size: 14pt;
+}
+
+.item {
+    border: 3px solid #765C4B;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botao_cadastro {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    font-size: 14pt;
+    font-family: 'RubikR';
+    color: white;
+    background-color: #FAA143;
+ }
+
+.botao_cadastro:hover, #cadastro_form:hover {
+    background-color: white;
+    border: 2px solid #FAA143;
+    color: #FAA143;
+    transition: .2s;
+}
+.botao_cadastro:disabled {
+    background-color: rgb(255, 78, 78);
+    color: white;
+}
+
+
+.cadastro {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    width: fit-content;
+    height: 35px;
+    background-color: #765C4B;
+    color: white;
+}
+
+.form {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px solid #765C4B;
+    border-radius: 10px;
+    color: #3e3e3e;
+}
+
+.input_lanche {
+    padding-bottom: 30px;
+}
+
+.label {
+    font-family: 'RubikR';
+    font-size: 16pt;
+}
+
+.input {
+    height: 30px;
+    width: 280px;
+    border: 2px solid #a1a1a1;
+    border-radius: 5px;
+    font-family: 'RubikL';
+    font-size: 12pt;
+    color: #3e3e3e;
+}
+
+.input_lista {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 270px;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    font-family: 'RubikL';
+    font-size: 12pt;
+    color: #3e3e3e;
+}
+
+.label_lista {
+    margin-top: 20px;
+    font-family: 'RubikR';
+    font-size: 13pt;
+}
+
+#cadastro_form {
+    width: 150px;
+    margin-left: auto;
+    border: none;
+    outline: none;
+}
+
+.swal-text {
+    font-family: 'RubikR'!important;
+    font-size: 14pt!important;
+}
+
+.tabela_banco {
+    font-family: 'RubikR';
+    font-size: 14pt;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+
+}
+
+th, td {
+    padding: 15px 50px 15px 50px;
+    background-color: #FAA143;
+}
+
+th {
+    background-color: #765C4B;
+    font-family: 'RubikL';
+    color: white;
+}
+
+#listagem {
+    background-color: #765C4B;
+    color: white;
+    font-size: 12pt;
+    text-align: end;
+}
+
+.filtros {
+    background-color: #765C4B;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    width: fit-content;
+}
